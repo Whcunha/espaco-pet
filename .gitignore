@@ -1,0 +1,33 @@
+# Sistema e pastas do VS Code
+.vscode/
+*.code-workspace
+
+# Node (caso use futuramente)
+node_modules/
+
+# Logs
+*.log
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Arquivos sensíveis
+.env
+.env.local
+.env.*.local
+
+# Cache e builds
+dist/
+build/
+.cache/
+*.bak
+*.tmp
+
+# Pasta de dependências do EmailJS (se usar SDK local)
+emailjs-com/
+
+# Arquivos zipados e PDFs
+*.zip
+*.rar
+*.pdf
