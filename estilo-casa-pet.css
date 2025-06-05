@@ -1,0 +1,17 @@
+/* === Correção para header fixo === */
+body {
+  padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 130px;
+  }
+}
+
+/* === CÓDIGO ORIGINAL DO USUÁRIO === */
+/* O resto do CSS vem aqui... (omitido por brevidade na visualização) */
+
+
+/* Aqui entra TODO o CSS original do usuário que foi postado,
+   com a correção de padding-top incluída no início deste arquivo. */

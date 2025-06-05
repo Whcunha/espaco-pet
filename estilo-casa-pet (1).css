@@ -1,0 +1,114 @@
+
+/* ========== IMPORTAÇÃO DE FONTES ========== */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* ========== RESET GLOBAL ========== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #f8e9dc, #d6f2ec);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ========== CABEÇALHO ========== */
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.cabecalho img {
+  max-height: 60px;
+}
+
+.cabecalho ul {
+  display: flex;
+  gap: 30px;
+}
+
+.cabecalho li {
+  font-weight: bold;
+  color: #444;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.cabecalho li:hover {
+  color: #a5d6c8;
+}
+
+/* ========== PADDING PARA O HERO SECTION ========== */
+.hero {
+  padding: 140px 20px 80px; /* extra top padding para compensar cabeçalho fixo */
+  text-align: center;
+}
+
+.hero-texto h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-texto p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ========== BOTÃO FOFO (CTA) ========== */
+.btn-fofinho {
+  background-color: #f7a6b4;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-fofinho:hover {
+  background-color: #ec889d;
+  transform: translateY(-2px);
+}
+
+/* ========== RESPONSIVO ========== */
+@media (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .cabecalho ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    padding-top: 160px; /* Ajusta para evitar sobreposição com cabeçalho */
+  }
+}

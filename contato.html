@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CASA PET</title>
+
+  <!-- Estilos -->
+  <link rel="icon" href="img/casa-pet-logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js" defer></script>
+
+
+</head>
+<body>
+
+  <!-- ======= Cabeçalho ======= -->
+
+<header class="cabecalho" id="cabecalho">
+    <a href="index.html"><img src="img/casa-pet-logo.png" alt="Logo Casa Pet" /></a>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="quem-somos.html">Quem Somos</a></li>
+      <li><a href="servicos.html">Serviços</a></li>
+      <li><a href="galeria.html">Galeria</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </header>
+
+<section id="contato" class="contato" data-aos="fade-up">
+  <h2 data-aos="fade-down">Entre em Contato</h2>
+
+  <form id="form-contato" data-aos="zoom-in-up">
+    <input type="text" name="nome" placeholder="Seu nome" required data-aos="fade-right" />
+    <input type="email" name="email" placeholder="Seu e-mail" required data-aos="fade-left" />
+    <input type="tel" name="telefone" placeholder="Seu telefone" required data-aos="fade-right" />
+    <textarea name="mensagem" placeholder="Sua mensagem" required data-aos="fade-left"></textarea>
+
+    <button type="submit" class="btn-fofinho" data-aos="zoom-in">Enviar Mensagem</button>
+    <p id="mensagem-sucesso" class="mensagem-sucesso oculto">Mensagem enviada com sucesso! 🐶</p>
+  </form>
+
+  <a href="https://wa.me/5511999999999" target="_blank" class="btn-fofinho whatsapp" data-aos="fade-up">
+    <i class="fab fa-whatsapp"></i> Fale no WhatsApp
+  </a>
+</section>
+
+
+
+  
+  <footer class="rodape">
+  <div class="rodape-container">
+    
+    <div class="rodape-logo">
+      <img src="img/casa-pet-logo.png" alt="Casa Pet">
+      <p>Seu pet em boas patas!</p>
+    </div>
+
+    <div class="rodape-info">
+      <h4>Contato</h4>
+      <p><i class="fas fa-map-marker-alt"></i> Rua das Patinhas, 123 – São Paulo/SP</p>
+      <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+      <p><i class="fas fa-envelope"></i> contato@casapet.com</p>
+    </div>
+
+    <div class="rodape-horario">
+      <h4>Horário de Funcionamento</h4>
+      <p>Seg a Sex: 07h às 19h</p>
+      <p>Sábado: 08h às 14h</p>
+      <p>Domingo: fechado</p>
+    </div>
+
+    <div class="rodape-redes">
+      <h4>Siga a gente</h4>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+  </div>
+
+  <div class="rodape-copy">
+    <p>&copy; 2025 Casa Pet. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+
+  </body>
+</html>
